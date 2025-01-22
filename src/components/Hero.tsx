@@ -1,3 +1,4 @@
+import travelIcon from "../assets/img/travel.svg";
 
 function Hero() {
     return (
@@ -6,7 +7,7 @@ function Hero() {
             <div className='md:absolute z-20 w-full h-full backdrop-filter backdrop-blur-md  bg-opacity-10 pt-32 pb-6 lg:pt-640 lg:pb-48'>
                 <div className="container flex flex-col lg:flex-row justify-end mx-auto mt-6 lg:mt-24 xl:mt-32 px-6 md:px-12 ">
                     <div className="mb-8 lg:mb-0 max-w-lg mx-auto">
-                        <img src="/img/travel.svg" alt="Hero Image" className="" />
+                        <img src={travelIcon} alt="Hero Image" className="" />
                     </div>
                     <div className="max-w-3xl text-[#360f34] xl:text-white">
                         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">Your Journey, Our Priority</h1>
